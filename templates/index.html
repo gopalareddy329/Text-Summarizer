@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Summarizer</title>
+</head>
+<body>
+    <h1>Document Summarizer</h1>
+    <form method="POST">
+        <label for="document">Enter a Document:</label>
+        <textarea name="document" id="document" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Summarize">
+    </form>
+    <h2>Summary:</h2>
+    <p>{{ summary }}</p>
+</body>
+</html>
